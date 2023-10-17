@@ -1,0 +1,45 @@
+.my-div{
+    background-image: url("../../../assets/image2.webp");
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.div-header{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.elements{
+    border: 2px solid red;
+    width: 500px;
+    font-size: larger;
+    display: flex;
+}
+
+#firstSpan{
+    margin: 0px 30px;
+}
+
+.div-body{
+    border: 2px solid red;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-body{
+    border: 2px solid green;
+    display: flex;
+    justify-content:center;
+    height: 200px;
+    width: 600px;
+    font-size: 80px;
+    font-weight: 800;
+}
