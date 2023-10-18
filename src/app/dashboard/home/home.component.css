@@ -5,6 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    font-family: sans-serif;
 }
 .div-header{
     display: flex;
@@ -17,7 +18,7 @@
 }
 
 .elements{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 500px;
     font-size: larger;
     display: flex;
@@ -27,19 +28,61 @@
     margin: 0px 30px;
 }
 
-.div-body{
-    border: 2px solid red;
+.mydivBody{
+    /* border: 2px solid red; */
     height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .image-body{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content:center;
     height: 200px;
     width: 600px;
-    font-size: 80px;
-    font-weight: 800;
+    position: relative;
+}
+
+.logo-body{
+    height: 40%;
+    width: 80%;
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+}
+
+.logo{
+    height: 95%;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: block;
+    align-items: center;
+    float: right;
+    background-image: url("../../../assets/image3.webp");
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+}
+
+.body-tag{
+    clear: both;
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+.tag-line{
+    border: 2px solid red;
+    margin-top: 40px;
+    height: 50px;
+}
+
+@media (max-width:778px) {
+    .elements{
+        display: none;
+    }
 }
