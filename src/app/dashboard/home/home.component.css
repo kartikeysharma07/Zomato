@@ -1,3 +1,18 @@
+
+/* start of the css code for the common code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+/* css code for the common css */
+
+
+/* Start of the css code for the image part */
 .my-div{
     background-image: url("../../../assets/image2.webp");
     height: 95vh;
@@ -75,11 +90,114 @@
     text-align: center;
 }
 
+/* End of the css code of the image part */
+
+
+/* Css for the code of the tag line of the code */
 .tag-line{
-    border: 2px solid red;
     margin-top: 40px;
-    height: 50px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
+
+.flag{
+    height: 40px;
+}
+
+/* .tag-text {
+    border: 2px solid red;
+} */
+.tag-text p{
+    font-size: 1.3rem;
+    /* border: 2px solid blue; */
+    width: 850px;
+    margin: auto auto;
+    color: rgb(105,105,105);
+    line-height: 150%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    justify-content: center;
+    font-weight:100;
+    text-align: center;
+}
+
+
+/* End of css of code of the tag line of the code */
+
+
+
+/* Css for the code of restaurant listing */
+.restaurant-list{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:repeat(3,90px);
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+.card{
+    /* border: 2px solid blue; */
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.card-tag{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card-body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1.42623px 2.85246px rgba(28, 28, 28, 0.08);
+    border-radius: 5px;
+    /* justify-content: center; */
+
+}
+.card-text{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 100;
+    padding-left: 20px;
+    transition: 0.3ms;
+}
+
+.card-text::after{
+    content: '\00bb';
+}
+
+/* End of restaurant listing */
+
+
+
+/* This is the css for the country list */
+
+.country-list{
+    border: 2px solid red;
+    margin: auto auto;
+    width: 90%;
+}
+/* This is the end of css for the country list */
+
 
 @media (max-width:778px) {
     .elements{
